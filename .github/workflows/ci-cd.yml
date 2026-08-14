@@ -25,5 +25,5 @@ jobs:
       - name: Check server.js
         run: node --check server.js
 
-       - name: Build Docker image
+      - name: Build Docker image
         run: docker build -t devops-node-app:latest .
