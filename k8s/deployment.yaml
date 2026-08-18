@@ -18,6 +18,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: devops-node-app
-          image: ghcr.io/amanbharti01/devops-node-app:latest
+          image: ghcr.io/amanbharti01/devops-node-app:4bf1ff7ee5dd3fc3cfd1d704eae36d02edfd6326
           ports:
             - containerPort: 3000
