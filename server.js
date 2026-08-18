@@ -4,7 +4,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello from Node.js + GitHub Actions + Docker + Kubernetes!");
+    res.send("Hello from Node.js + GitHub Actions + Docker + Kubernetes!
+	    succeefully");
 });
 
 app.get("/health", (req, res) => {
